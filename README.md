@@ -2,7 +2,8 @@ hello, this is a little Osint framwork that should be Improved.
 
 for educational purpose only.
 
-it has a differents modules :, 
+it has a differents modules :
+
     - mail generator module , which generate patterns of mail adresses and search for possible leaks on the mail adresses (all outputs are saved in a file of your choice)
 
     - a (French) phone osint module that need to be improved, it can retriev the formatted_number, time_zone, region and the service_provider, 
