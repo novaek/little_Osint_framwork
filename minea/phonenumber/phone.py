@@ -3,7 +3,7 @@ from phonenumber.bash import get_info, draw_map
 from opencage.geocoder import OpenCageGeocode
 
 def get_coordinates(location):
-    coder = OpenCageGeocode("42c84373c47e490ba410d4132ae64fc4")  # Replace with your actual OpenCage API key
+    coder = OpenCageGeocode("YOUR_API_KEY")  # Replace with your actual OpenCage API key
     results = coder.geocode(location)
     if results:
         latitude = results[0]['geometry']['lat']
